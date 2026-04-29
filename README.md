@@ -1,48 +1,115 @@
-# Astro Starter Kit: Basics
+# 👋 Hola, soy Juan Méndez
 
-```sh
-npm create astro@latest -- --template basics
-```
+💻 Full-Stack Developer | DevOps
+📍 Guanajuato, México
+🌐 https://juanmendev.com
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Sobre mí
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Desarrollador Full-Stack con experiencia construyendo aplicaciones web, APIs, sistemas CRM y soluciones multiplataforma.
 
-## 🚀 Project Structure
+He trabajado liderando desarrollo e infraestructura en entornos reales, optimizando procesos, integrando servicios y desplegando soluciones escalables.
 
-Inside of your Astro project, you'll see the following folders and files:
+Me enfoco en:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- ⚡ Optimización de rendimiento
+- 🧩 Integración de sistemas
+- ☁️ Infraestructura y despliegue
+- 📊 Soluciones orientadas a negocio
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+## 🛠️ Tecnologías
 
-All commands are run from the root of the project, from a terminal:
+### 💻 Desarrollo Web
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- Angular, React, Vue
+- TypeScript, Node.js, Python
+- GraphQL
 
-## 👀 Want to learn more?
+### 🗄️ Bases de Datos
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- MySQL
+- PostgreSQL
+
+### ⚙️ DevOps
+
+- Docker
+- AWS
+- DNS / Servidores
+
+### 📱 Multiplataforma
+
+- Flutter
+- Electron
+- C++
+
+---
+
+## 💼 Experiencia
+
+### 🏢 Nueva Era Digital (Startup)
+
+**Full-Stack Developer & DevOps**
+_Nov 2024 – Abr 2026_
+
+- 🚀 Optimización de API GraphQL (web scraping desde WordPress) reduciendo tiempos de respuesta en **80%**
+- 🧠 Desarrollo de CRM con módulos de IA, BI y pagos
+- 🐳 Implementación de infraestructura con Docker
+- 🎬 API de procesamiento de video en Python (MoviePy + JWT)
+- 🌐 Plataforma de gestión turística (ventas y distribución)
+- 💳 Sistema POS integrado con CRM
+- 📲 API para gestión y análisis de conversaciones de WhatsApp
+
+---
+
+## 📌 Proyectos Destacados
+
+🔹 **Headless CMS con GraphQL + WordPress**
+Sistema para extracción, normalización y consumo eficiente de datos.
+
+🔹 **CRM Inteligente**
+Plataforma con integración de IA, métricas y automatización de procesos.
+
+🔹 **Video Processing API**
+Automatización de edición y renderizado de video.
+
+🔹 **Sistema POS + CRM**
+Ecosistema completo para gestión de ventas y clientes.
+
+---
+
+## 🎯 Habilidades
+
+- Resolución de problemas complejos
+- Comunicación técnica efectiva
+- Arquitectura de sistemas
+- Trabajo con equipos multidisciplinarios
+
+---
+
+## 🎬 Extra
+
+También tengo experiencia en:
+
+- Producción y edición audiovisual
+
+---
+
+## 🌎 Idiomas
+
+- Español: Nativo
+- Inglés: Básico (A2)
+
+---
+
+## 📫 Contacto
+
+📧 [contacto.juanmendezch0313@gmail.com](mailto:contacto.juanmendezch0313@gmail.com)
+🌐 https://juanmendev.com
+
+---
+
+⭐ Siempre abierto a nuevas oportunidades y proyectos interesantes
