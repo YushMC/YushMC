@@ -1,0 +1,115 @@
+<h2 id="Experiencia"><span>Experiencia</span></h2>
+<section class="experiences">
+    <div id="bar">
+    </div>
+    <section class="fl-column">
+        <aside class="fl-column glass-effect">
+            <header class="fl-column">
+                <h4>Nueva Era Digital (StartUp)</h4>
+                <h6>17 de Noviembre del 2024 - 15 de Abril del 2026</h6>
+            </header>
+            <p>
+                Inicié como parte de un programa de estadías profesionales y posteriormente continué como desarrollador, asumiendo responsabilidades completas en desarrollo e infraestructura. </p>
+<ul >
+                <li>Optimicé una API en GraphQL para la extracción, normalización y transformación de datos mediante web scraping desde WordPress, habilitando su uso como Headless CMS y reduciendo el tiempo de respuesta en un 80%, mejorando la disponibilidad de datos para múltiples aplicaciones.</li>
+                <li>Contribuí al desarrollo de un sistema CRM multiplataforma, integrando módulos de IA, business intelligence y gestión de pagos dentro de una arquitectura escalable, mejorando el control operativo y la toma de decisiones.</li>
+                <li>Implementé y administré infraestructura basada en contenedores (Docker), optimizando el despliegue, orquestación y mantenimiento de servicios en entornos productivos.</li>
+                <li>Desarrollé una API de procesamiento de video en Python (MoviePy, JWT), automatizando la composición, edición y renderizado de múltiples clips.</li>
+                <li>Participé en el diseño y desarrollo de una plataforma de gestión, ventas y distribución en el sector turístico, simplificando la administración y publicación de productos y servicios.</li>
+                <li>Desarrollé un sistema POS integrado con el CRM, utilizando tecnologías web multiplataforma para garantizar alta interoperabilidad y escalabilidad entre sistemas.</li>
+                <li>Contribuí al desarrollo de una API en Node.js para la ingesta y almacenamiento de conversaciones de WhatsApp, permitiendo el monitoreo, trazabilidad y análisis del desempeño de agentes.</li>
+            </ul>
+        </aside>
+        
+    </section>
+</section>
+
+<style>
+    h2{
+        padding-left: 10%;
+        padding-top: 10dvh;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        li{
+            padding: 12px;
+            background: var(--AcentColor);
+            opacity: 0.8;
+            border-radius: 10px;
+        }
+    }
+
+.experiences{
+    width: 100%;
+    padding-inline: 20%;
+    height: fit-content;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 3px auto ;
+    content-visibility: auto;
+    contain-intrinsic-size: 5dvh 80dvw;
+}
+
+#bar{
+    width: 100%;
+    height: 80%;
+    margin: auto 0;
+    background: var(--textColorWhite);
+    border-radius: 10px;
+    opacity: 0.5;
+    position: relative;
+}
+
+#bar::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: var(--textColorWhite);
+    opacity: 0.5;
+    border-radius: 100%;
+    bottom: -12px;
+    left: -1px;
+}
+
+#bar::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: var(--textColorWhite);
+    opacity: 0.5;
+    border-radius: 100%;
+    bottom: -22px;
+    left: -1px;
+}
+aside{
+    width: 100%;
+    position: relative;
+    padding-inline: 2rem;
+
+    &::before{
+        position: absolute;
+        clip-path: polygon(100% 100%, 100% 0, 0 50%);
+        top: 0;
+        left: -16px;
+        content: "";
+        background: var(--AcentColor);
+        width: 15px;
+        height: 100%;
+    }
+}
+
+header h6{
+    opacity: 0.8;
+}
+@media screen and (max-width:800px){
+    .experiences{
+        padding-inline: 10%;
+    }
+}
+</style>

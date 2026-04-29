@@ -1,0 +1,83 @@
+<article id="Sobre-Mi">
+    <section class="fl-column">
+        <header>
+            <h2>Acerca de JuanMen<span>Dev</span></h2>
+            <h5 style="opacity: 0.5;">(Juan Méndez)</h5>
+        </header>
+        <p>
+            <strong>Desarrollador Full-Stack con cerca de 2 años de experiencia</strong>,
+            apasionado por el desarrollo de software con enfásis en el Front-End, con capacidades de buena
+            comunicación efectiva y abierto a nuevas experiencias. 
+
+             Lideré el área de desarrollo y administración de servidores en Nueva Era Digital, diseñando e implementando soluciones enfocadas en optimizar procesos. Desarrollé aplicaciones web (incluyendo e-commerce), APIs, sistemas CRM y aplicaciones móviles y de escritorio, asegurando su correcta integración y despliegue. 
+        </p>
+        <p>
+            Me gusta compartir mis conocimientos con las personas cercanas a mi entorno, <em>me considero una persona responsable y amante de lo que hace</em> 🤞✨
+        </p>
+        <h3><span>Habilidades</span></h3>
+        <ul class="fl-column">
+            <li>Manejo de tecnologías front-end</li>
+            <li>Manejo de software multimedia</li>
+            <li>Manejo de tecnologías para modelado</li>
+            <li>Manejo de software de control de versiones</li>
+            <li>Creación de contenido en redes sociales</li>
+            <li>Conceptos de mercadotecnia digital</li>
+    </section>
+    <figure class="fl-center">
+        <img src="/images/logo_yo.webp" alt="JuanMenDev"  decoding="async" loading="lazy" >
+    </figure>
+</article>
+
+<style>
+    article{
+        padding-top: 10dvh;
+        background: rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur(10px);
+        padding-bottom: 64px;
+        padding-inline: 10%;
+        box-shadow: -1px 20px 17px -8px var(--TransparentAcentColor) inset;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        content-visibility: auto;
+        contain-intrinsic-size: 5dvh 80dvw;
+    }
+
+    p{
+        opacity: 0.8;
+    }
+
+    ul{
+        margin-left: 1rem;
+    }
+    
+    section{
+        width: 70%;
+    }
+    
+    figure{
+        width: 100%;
+        margin: auto;
+    
+        img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 100%;
+            mask-image: linear-gradient(black 80%, transparent);
+        }
+    }
+    
+    @media screen and (max-width:800px) {
+        article{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .fl-column{
+            width: 100%;
+        }
+        figure{
+            width: 60%;
+        }
+    }
+</style>

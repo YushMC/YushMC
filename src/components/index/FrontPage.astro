@@ -1,0 +1,53 @@
+<section class="fl-even">
+        <aside class="fl-column">
+            <h1 class="subtitle">¡Hola soy,</h1>
+            <h2 class="title">Juan Méndez!</h2>
+            <h3 class="subtitle">Ingeniero, Desarrollador Full-Stack y DevOps</h3>
+            <p>
+                <i>"La interacción y la satisfacción del usuario es lo más gratificante, sobre todo si el proceso lo haces tuyo".</i>
+            </p>
+            <div class="fl-btw" style="flex-wrap:wrap;">
+                <a href="#Proyectos" class="glass-effect"><i class="bi bi-window-stack"></i> Ver Proyectos</a>
+                <a href="/cv/cv_juan_de_dios_mendez.pdf" download style="color: var(--textColorWhite)"><i class="bi bi-download"></i> Descargar CV</a>
+                <a href="https://github.com/YushMC" target="_blank" rel="external noopener noreferrer" style="color: white;"><i class="bi bi-github"></i> Mí GitHub</a>
+            </div>
+            
+        </aside>
+        <figure class="fl-center">
+            <img class="img-aspect-1-1" src="/images/logo_yo.webp" alt="Foto de JuanMenDev">
+        </figure>
+    </section>
+
+
+<style>
+    section{
+        width: 100%;
+        height: fit-content;
+        min-height: 84dvh;
+        flex-wrap: wrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 1s linear;
+        animation: show 1s ease-in-out forwards;
+    }
+    aside{
+        width: fit-content;
+        max-width: 500px;
+    }
+    
+    figure{
+        width: 300px;
+    }
+
+    img{
+        mask-image: linear-gradient(black 80%, transparent);
+        outline-offset: 60px !important;
+        outline-color:  rgba(255, 255, 255, 0.774)
+    }
+    
+@media screen and (max-width:800px) {
+    section{
+        padding-inline: 10%;
+    }
+}
+</style>

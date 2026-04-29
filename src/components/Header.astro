@@ -1,0 +1,192 @@
+<header class="fl-btw">
+    <label for="menu" id="menuButton"><i class="bi bi-list"></i></label>
+    <input type="checkbox" id="menu">
+    <h2>JuanMen<span>Dev</span></h2>
+    <nav class="fl-btw">
+        <ul class="fl-btw">
+            <li class="active">
+                <a href="/#"><i class="bi bi-house"></i>Inicio</a>
+                <hr>
+            </li>
+            <li>
+                <a href="#Proyectos"><i class="bi bi-person-workspace"></i> Proyectos</a>
+                <hr>
+            </li>
+            <li>
+                <a href="#Experiencia"><i class="bi bi-stars"></i> Experiencia</a>
+                <hr>
+            </li>
+            <li>
+                <a href="#Sobre-Mi"><i class="bi bi-info-circle-fill"></i>Sobre Mí</a>
+                <hr>
+            </li>
+            <li>
+                <a href="#Contacto"><i class="bi bi-envelope-fill"></i> Contacto</a>
+                <hr>
+            </li>
+        </ul>
+    </nav>
+    <label for="menu" id="cerrarMenu2"><i class="bi bi-x-lg"></i></label>
+</header>
+
+<style>
+    header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        margin: auto;
+        padding-block: 16px;
+        padding-inline: 10%;
+        backdrop-filter: blur(5px);
+        z-index: 100;
+        flex-wrap: wrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 1s linear;
+        animation: show 1s ease-in-out forwards;
+    }
+
+    nav{
+        width: fit-content;
+        flex-wrap: wrap;
+        
+    }
+    ul{
+        list-style: none;
+    }
+
+    li{
+       padding-inline: 16px;
+       display: flex;
+       flex-direction: column;
+       gap: 5px;
+       
+       a{
+        color: var(--textColorWhite);
+       }
+
+       hr{
+        width: 0%;
+        height: 2px;
+        border: none;
+        background: var(--AcentColor);
+        transition: all 0.3s linear;
+       }
+
+       &:hover{
+
+        hr{
+            width: 100%;
+        }
+       }
+
+       &.active hr{
+        width: 100%;
+       }
+    }
+
+input{
+    display: none;
+}
+
+label{
+    font-size: 2rem;
+}
+
+@media screen and (min-width:800px) {
+    label{
+        display: none;
+    }
+}
+
+#cerarrMenu2{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    header{
+        height: 10dvh;
+    }
+    #cerrarMenu2{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100dvh;
+        z-index:101;
+        display: none;
+        transition: all 0.3s linear;
+        transform: translateX(-50dvw);
+        opacity: 0;
+        visibility: visible;
+        
+        cursor: pointer;
+        backdrop-filter: blur(10px);
+
+        i{
+            position: absolute;
+            top: 1dvh;
+            right: 10dvw;
+            filter: drop-shadow(5px 5px 10px #000000);
+        }
+    }
+    #menuButton{
+        padding:  none !important;
+    }
+
+
+    nav{
+        position: fixed;
+        width: fit-content;
+        flex-direction: column;
+        justify-content: start;
+        z-index: 102;
+        height: fit-content;
+        top: 10dvh;
+        left: 0;
+        background: var(--OneColor);
+        align-items: start !important;
+        padding-block: 16px;
+        box-shadow: 0px 0px 10px 5px #ffffff2a;
+        transform: translateX(-50dvw);
+        opacity: 0;
+        visibility: visible;
+        transition: all 0.3s linear;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: solid 2px var(--TransparentAcentColor);
+        border-left: none;
+
+        label{
+            width: 100%;
+            text-align: end;
+            
+            i{
+                color: tomato;
+            }
+        }
+        
+        ul{
+            flex-direction: column !important;
+            justify-content: start !important;
+            align-items: start !important;
+        }
+    }
+
+    
+
+    input:checked ~ nav,
+    input:checked ~ #cerrarMenu2
+    {
+        transform: translateX(0px);
+        display: flex;
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    li.active hr{
+        display: none !important;
+    }
+}
+</style>

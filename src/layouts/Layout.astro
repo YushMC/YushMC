@@ -1,0 +1,56 @@
+---
+
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+
+---
+
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="/styles/main.css">
+		<link rel="stylesheet" href="/styles/classes.css">
+		<link rel="stylesheet" href="/styles/animations.css">
+		<link rel="canonical" href="https://juanmendev.com" />
+		<link rel="shortcut icon" href="/images/logo_yo.webp" type="image/webp">
+		<link rel="preload" as="image" href="/images/logo_yo.webp" type="image/webp" />
+		<meta property="og:title" content="Inicio - JuanMenDev" />
+		<meta property="og:description" content="¡Muy buenas a todos!, Soy Juan de Dios Méndez - Desarrollador Fron-End y este es mi protafolio personal!" />
+		<meta property="og:image" content="https://juanmendev.com/images/logo_yo.webp" />
+		<meta property="og:url" content="URL de la página" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="JuanMenDev" />
+		<meta property="og:locale" content="es_ES" />
+		<meta name="robots" content="index, follow">
+		<meta name="description" content="Muy buenas a todos!, Soy Juan de Dios Méndez - Desarrollador y este es mi protafolio personal donde se presentan algunos de mis proyectos!" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<title>JuanMenDev - Desarrollador Fron-End</title>
+		<base href="/">
+	</head>
+	<body>
+		<Header />
+		<main>
+			<slot />
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	body{
+		display: grid;
+		min-height: 100dvh;
+		grid-template-rows:  auto 1fr auto;
+	}
+	main{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 64px !important;
+	}
+
+	
+</style>
